@@ -72,7 +72,7 @@ over4:
 	txa                       ; cycles nibble 2: 36
 	and #$0f                  ; cycles nibble 2: 38							  
 
-  jsr delay
+	jsr delay
 	sta $d418
 	
 	jmp loop_start
